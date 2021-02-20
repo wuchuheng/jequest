@@ -1,0 +1,25 @@
+{
+  "name": "simplerequest",
+  "version": "1.0.0",
+  "description": "一个请求的发起，中间可能会处理很多， 但最终只能返回成功或者失败这2种状态，simpleRequest以promise的方式来做这样的事",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuchuheng/simple-request.git"
+  },
+  "author": "wuchuheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuchuheng/simple-request/issues"
+  },
+  "homepage": "https://github.com/wuchuheng/simple-request#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "typescript": "^4.1.5"
+  }
+}
